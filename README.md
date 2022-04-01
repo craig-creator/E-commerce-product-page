@@ -3,7 +3,7 @@
 ## Teble of content
 * [Introduction](#Introduction)
 * [Technologies](#Technologies)
-* [Live-demo](#Live demo)
+* [Live-demo](#Demo)
 * [Status](#Status)
 
 ## Introduction
@@ -16,7 +16,7 @@ In this project I used:
 -Javascript
 -Bulma CSS
 
-## Live demo
+## Demo
 Find this project hosted on [Sacoche](https://www.sacoche.netlify.app)
 
 ## Status
