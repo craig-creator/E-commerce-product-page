@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/logo.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <title>Jet Set Charm by Michael Kors</title>
+</head>
+<body>
+    <nav class="navbar has-shadow">
+        <!--Logo-->
+        <div class="navbar-brand">
+            <div class="container">
+                <a class="navbar-item"><img src="images/logo.png" alt="logo" style="max-height: 70px" class="py-2 px-2"></a>
+            </div>
+            <a class="navbar-burger" id="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+        </div>
+            
+        <div class="navbar-menu" id="navbar-links">
+            <div class="navbar-end">
+                <a class="navbar-item">My account</a>
+                <a class="navbar-item" id="cart">Shopping Cart (0)</a>
+            </div>
+        </div>
+        
+    </nav>
+
+    <!--Breadcrumbs-->
+
+    <div class="section pt-4 pb-0">
+        <div class="container">
+            <nav class="breadcrumb has-bullet-separator" arial-label="breadcrumbs">
+                <ul>
+                    <li><a href="" class="has-text-grey">Sacoche</a></li>
+                    <li><a href="" class="has-text-grey">Shop</a></li>
+                    <li><a href="" class="has-text-grey">Jet Set Charm</a></li>
+                </ul>
+            </nav>
+       </div> 
+    </div>
+
+    <!--Product information-->
+    <section class="section">
+        <div class="container">
+            <div class="columns is-vcentered is-multiline">
+                <div class="column is-6-tablet is-3-desktop">
+                    <h1 class="is-size-3-mobile is-size-1-desktop title">Jet Set Charm</h1>
+                    <h2 class="is-size-5-mobile is-size-2-desktop subtitle">Michael Kors</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores id recusandae reiciendis ex temporibus tempore aspernatur, numquam est molestias aliquid laborum modi magni voluptatem. Esse quaerat provident labore. Et, porro!</p>
+                </div>
+                <div class="column is-6-tablet is-5-desktop">
+                    <img src="https://bit.ly/3wsXGZ8" alt="docker coffee image" class="px-6 has-text-centered">
+                </div>
+                <div class="column is-12-tablet is-4-desktop">
+                    <div class="is-size-4 mb-4">$145.95</div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum repellendus cum tempore unde, nesciunt est molestias officiis accusantium asperiores tempora.</p>
+                    <div class="buttons">
+                        <button class="button is-primary is-light" id="add-to-cart">Add to Cart</button>
+                        <button class="button is-danger is-light" id="reset">Reset</button>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Modal-->
+
+    <div class="modal" id="discount-modal">
+        <div class="modal-background" id="modal-bg"></div>
+        <div class="modal-content has-background-white" style="border-radius: 15px;">
+            <h1 class="title is-size-1 pl-4 pb-4" style="color: rgb(249, 134, 134);">Buy two product now and get <strong>30% discount</strong></h1>
+        </div>
+    </div>
+
+    <section class="section">
+        <div class="container">
+            <div class="columns is-5 is-variable">
+                <div class="column is-6-tablet">
+                    
+                    <!--Tabbed content-->
+
+                    <div class="tabs is-boxed">
+                        <ul>
+                            <li id="tab1" class="is-active">
+                                <a >Product Details</a>
+                            </li>
+                            <li id="tab2">
+                                <a >Delivery information</a>
+                            </li>
+                    </div>
+
+                    <div class="px-2" id="tab-content">
+                        <div id="product-details">
+                            <h3 class="is-size-5 title">Product Details</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam minima labore impedit voluptatibus, praesentium eius nam esse repellendus sequi, rem, officiis iure exercitationem sint illum! Quia voluptates inventore ipsam modi?</p>
+                        </div>
+
+                        <div id="delivery-information" class="is-hidden">
+                            <h3 class="is-size-5 title">Delivery Information</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam minima labore impedit voluptatibus, praesentium eius nam esse repellendus sequi, rem, officiis iure exercitationem sint illum! Quia voluptates inventore ipsam modi?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Related products-->
+
+    <section class="section">
+        <div class="container">
+            <h3 class="title has-text-centered is-size-4">Related Products</h3>
+            
+            <!--Products-->
+            
+            <div class="columns">
+                <!--Product1-->
+                <div class="column is-4">
+                    <div class="card">
+                        <div class="card-content">
+                          <div class="media">
+                            <div class="media-left">
+                                <figure class="image is-128x128">
+                                    <img src="https://bit.ly/3JCNAbS">
+                                </figure>
+                            </div>
+                            <div class="media-content">
+                              <p class="title is-4"><a>Bicorno</a></p>
+                              <p class="subtitle is-6">Valentino</p>
+                              <div class="content">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Phasellus nec iaculis mauris.
+                                <br>
+                              </div>
+                            </div>
+                          </div>
+                      
+                          <div class="is-size-4">$109.99</div>
+                        </div>
+                    </div>
+                </div>
+                <!--Product2-->
+                <div class="column is-4">
+                    <div class="card">
+                        <div class="card-content">
+                          <div class="media">
+                            <div class="media-left">
+                                <figure class="image is-128x128">
+                                    <img src="https://bit.ly/3D1LMH0">
+                                </figure>
+                            </div>
+                            <div class="media-content">
+                              <p class="title is-4"><a>Cognac</a></p>
+                              <p class="subtitle is-6">Anna Field</p>
+                              <div class="content">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Phasellus nec iaculis mauris.
+                                <br>
+                              </div>
+                            </div>
+                          </div>
+                      
+                          <div class="is-size-4">$32.99</div>
+                        </div>
+                    </div>
+                </div>
+                <!--Product3-->
+                <div class="column is-4">
+                    <div class="card">
+                        <div class="card-content">
+                          <div class="media">
+                            <div class="media-left">
+                                <figure class="image is-128x128">
+                                    <img src="https://bit.ly/3wtioIs">
+                                </figure>
+                            </div>
+                            <div class="media-content">
+                              <p class="title is-4"><a>Penombre</a></p>
+                              <p class="subtitle is-6">Lacoste</p>
+                              <div class="content">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Phasellus nec iaculis mauris.
+                                <br>
+                              </div>
+                            </div>
+                          </div>
+                      
+                          <div class="is-size-4">$63.45</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!--Promotion-->
+
+    <section class="section">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-6">
+                    <div class="container is-6">
+                        <h1 class="title is-size-1">
+                            Stay tuned and get notified on our next holiday sales🎉
+                        </h1>
+                    </div>
+                </div>
+                 
+            <!--Message box-->
+            
+                <div class="column is-6">
+                    <article class="message section-mobile">
+                        <div class="message-header">
+                          <p>Sign Up to our Newsletter</p>
+                        </div>
+                        <div class="message-body">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos voluptate atque libero tenetur eligendi placeat, inventore molestias sapiente, beatae a odit, fuga nostrum doloribus delectus esse corrupti. Laudantium, impedit natus.
+                            </p>
+                            <div class="has-text-centered mt-4">
+                                <button class="button mt-2" id="sign-up">Sign Up</button>
+                            </div>
+                        </div>
+                     </article>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Join the club modal-->
+    <div class="modal" id="sign-modal">
+        <div class="modal-background" id="modal-bg2"></div>
+        <div class="modal-content has-background-white" style="border-radius: 15px;">
+            <h1 class="title is-size-1 mt-4 pl-4 pb-4">Join the club</h1>
+            <form class="ml-4 mr-4 mb-4">
+                <div class="field">
+                    <label for="" class="label">First-name</label>
+                    <div class="control">
+                        <input type="text" class="input" placeholder="First-name">
+                    </div>
+                </div>
+                <div class="field">
+                    <label for="" class="label">Email</label>
+                    <div class="control">
+                        <input type="text" class="input" placeholder="Email">
+                    </div>
+                </div>
+                <div class="field ml-4">
+                    <div class="control">
+                        <label class="checkbox">
+                            <input type="checkbox" id="checkbox">
+                            I agree to the <a href="#">terms and conditions</a>
+                        </label>
+                    </div>
+                </div>
+                <div class="has-text-centered">
+                    <button class="button is-link" id="signed-up">Sign Up</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!--Footer-->
+
+    <footer class="footer">
+        <div class="content has-text-centered">
+          <p>
+              &copy;2022 Sacoche
+          </p>
+          <p style="font-size: 8px;">realized by Craig B. Ndagano</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
