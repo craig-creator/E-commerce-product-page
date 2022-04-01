@@ -11,10 +11,10 @@ This small page was built while I was learning web development. I felt like ther
 
 ## Technolgies
 In this project I used:
--HTML
--CSS
--Javascript
--Bulma CSS
+- HTML
+- CSS
+- Javascript
+- Bulma CSS
 
 ## Demo
 Find this project hosted on [Sacoche](https://www.sacoche.netlify.app)
